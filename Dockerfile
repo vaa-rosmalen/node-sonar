@@ -1,4 +1,4 @@
-FROM node:10.17.0-buster as builder
+FROM node:12-buster as builder
 
 RUN apt-get update && apt-get dist-upgrade -y && apt-get install -y openjdk-11-jre
 
